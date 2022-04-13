@@ -1,0 +1,107 @@
+.rightbar{
+    flex:3.5;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+.birthdayWrapper{
+    display: flex;
+    align-items: center;
+}
+.birthdayImg{
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+.birthdayText{
+    font-size: 15px;
+    font-weight: 300;
+}
+.rightbarAd{
+    width: 100%;
+    margin: 30px 0;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.rightbarFriendList{
+    
+    justify-content: flex-start;
+    list-style: none;
+}
+.rightbarFriendProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.rightbarUsername{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.rightbarOnlineStatus{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+    bottom: 2px;
+    right: 3px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.rightbarFriendOnlineContainer{
+    position: relative;
+}
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.rightbarKeyValue, rightbarUserInfo{
+    width: 100%;
+}
+
+.rightbarkKey{
+    font-weight: 500;
+    margin-right: 15px;
+    width: 30%;
+}
+.rightbarImgFriend{
+    width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+    
+}
+.rightbarFriendList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightbarFriendsItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  cursor: pointer;
+}
+.righbarFriendName{
+    font-size: 15px;
+    font-weight: 300;
+}
+.rightbarButtonWrapper{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+}
